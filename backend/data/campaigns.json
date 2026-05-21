@@ -1,0 +1,79 @@
+{
+  "brand": "SolarShield Immune+",
+  "retailer": "Walmart Connect",
+  "month": "2026-04",
+  "monthly_budget": 85000,
+  "campaigns": [
+    {
+      "id": "SP-001",
+      "name": "Sponsored Products — Exact Match",
+      "type": "SP",
+      "targeting": "exact",
+      "quantum_state": "high_intent",
+      "daily_budget": 1800,
+      "keywords": [
+        {"kw": "vitamin d3 immune support", "match": "exact", "bid": 1.85, "daily_changes": 0},
+        {"kw": "zinc vitamin d supplement", "match": "exact", "bid": 1.72, "daily_changes": 0},
+        {"kw": "immune support capsules 60 count", "match": "exact", "bid": 2.10, "daily_changes": 0},
+        {"kw": "solarshield immune plus", "match": "exact", "bid": 0.95, "daily_changes": 0}
+      ],
+      "status": "active",
+      "funnel_weight": 0.35
+    },
+    {
+      "id": "SP-002",
+      "name": "Sponsored Products — Auto",
+      "type": "SP",
+      "targeting": "auto",
+      "quantum_state": "high_intent",
+      "daily_budget": 1200,
+      "keywords": [
+        {"kw": "auto_targeting", "match": "auto", "bid": 1.40, "daily_changes": 0}
+      ],
+      "status": "active",
+      "funnel_weight": 0.20
+    },
+    {
+      "id": "SB-001",
+      "name": "Sponsored Brands — Broad",
+      "type": "SB",
+      "targeting": "broad",
+      "quantum_state": "consideration",
+      "daily_budget": 900,
+      "keywords": [
+        {"kw": "immune support supplement", "match": "broad", "bid": 1.20, "daily_changes": 0},
+        {"kw": "vitamin d supplement adults", "match": "broad", "bid": 1.10, "daily_changes": 0},
+        {"kw": "zinc immune defense", "match": "broad", "bid": 1.05, "daily_changes": 0}
+      ],
+      "status": "active",
+      "funnel_weight": 0.25
+    },
+    {
+      "id": "SD-001",
+      "name": "Onsite Display — In-Market",
+      "type": "SD",
+      "targeting": "behavioral",
+      "quantum_state": "aware_low_intent",
+      "daily_budget": 700,
+      "keywords": [
+        {"kw": "in_market_vitamins", "match": "audience", "bid": 4.50, "daily_changes": 0}
+      ],
+      "status": "active",
+      "funnel_weight": 0.15
+    },
+    {
+      "id": "SBV-001",
+      "name": "Sponsored Brands Video — Awareness",
+      "type": "SBV",
+      "targeting": "broad",
+      "quantum_state": "unaware",
+      "daily_budget": 230,
+      "keywords": [
+        {"kw": "immune health", "match": "broad", "bid": 0.85, "daily_changes": 0},
+        {"kw": "daily vitamins", "match": "broad", "bid": 0.78, "daily_changes": 0}
+      ],
+      "status": "active",
+      "funnel_weight": 0.05
+    }
+  ]
+}

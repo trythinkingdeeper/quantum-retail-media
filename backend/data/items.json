@@ -1,0 +1,101 @@
+{
+  "brand": "SolarShield Immune+",
+  "retailer": "Walmart Connect",
+  "period": "2026-04",
+  "prior_period": "2025-04",
+  "note": "GMV = total omni sales (store + ecommerce), not ad-attributed. Intent derived from campaign spend distribution.",
+  "items": [
+    {
+      "id": "ITEM-001",
+      "name": "Immune+ 60-Count",
+      "asp": 18.99,
+      "campaign_spend": {
+        "SP-001": 9200,
+        "SP-002": 4600,
+        "SB-001": 3200
+      },
+      "gmv_current": 68400,
+      "gmv_prior": 61200,
+      "units_current": 3602,
+      "units_prior": 3223,
+      "ntb_orders_total": 890
+    },
+    {
+      "id": "ITEM-002",
+      "name": "Immune+ 30-Count",
+      "asp": 9.99,
+      "campaign_spend": {
+        "SP-001": 4800,
+        "SP-002": 3200,
+        "SB-001": 1200,
+        "SD-001": 1400
+      },
+      "gmv_current": 42800,
+      "gmv_prior": 43100,
+      "units_current": 4284,
+      "units_prior": 4314,
+      "ntb_orders_total": 620
+    },
+    {
+      "id": "ITEM-003",
+      "name": "Immune+ 90-Count Value",
+      "asp": 24.99,
+      "campaign_spend": {
+        "SP-001": 3600,
+        "SP-002": 2200,
+        "SB-001": 1400
+      },
+      "gmv_current": 31200,
+      "gmv_prior": 27400,
+      "units_current": 1249,
+      "units_prior": 1097,
+      "ntb_orders_total": 310
+    },
+    {
+      "id": "ITEM-004",
+      "name": "Vitamin D3 Solo",
+      "asp": 7.99,
+      "campaign_spend": {
+        "SB-001": 2100,
+        "SD-001": 1700,
+        "SBV-001": 400
+      },
+      "gmv_current": 18200,
+      "gmv_prior": 22800,
+      "units_current": 2278,
+      "units_prior": 2854,
+      "ntb_orders_total": 290
+    },
+    {
+      "id": "ITEM-005",
+      "name": "Zinc Defense",
+      "asp": 8.49,
+      "campaign_spend": {
+        "SB-001": 1000,
+        "SD-001": 1100,
+        "SBV-001": 280
+      },
+      "gmv_current": 14600,
+      "gmv_prior": 11200,
+      "units_current": 1720,
+      "units_prior": 1320,
+      "ntb_orders_total": 480
+    },
+    {
+      "id": "ITEM-006",
+      "name": "Immune+ Bundle Pack",
+      "asp": 34.99,
+      "campaign_spend": {
+        "SP-001": 820,
+        "SP-002": 1200,
+        "SD-001": 220,
+        "SBV-001": 200
+      },
+      "gmv_current": 22400,
+      "gmv_prior": 16800,
+      "units_current": 640,
+      "units_prior": 480,
+      "ntb_orders_total": 195
+    }
+  ]
+}
