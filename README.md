@@ -32,6 +32,29 @@ The strategy layer stays human. Budget, mode, intent, priorities — those decis
 
 ---
 
+## Screenshots
+
+![Pacing Header](screenshots/Pacing%20Bar.png)
+*Portfolio pacing bar — MTD spend vs. expected, pacing index, and cycle controls*
+
+![Campaign Table](screenshots/Campaign%20Table.png)
+*HDCP campaign scorecard — each campaign scored on ROAS, NTB%, and overall health*
+
+![Wave Function](screenshots/2D%20Wave%20Guide%20Dark.png)
+*Customer probability wave function — spend distribution mapped across the intent spectrum*
+
+<table>
+<tr>
+<td><img src="screenshots/Wave%20Guide%20Choices.png" width="420"/><br><em>Monthly strategy selection — Acquisition, Balanced, or Retention, each with wave previews and NTB/ROAS targets</em></td>
+<td><img src="screenshots/NLP%20Interface.png" width="260"/><br><em>Goal slider and natural language input — set intent and run Claude in one step</em></td>
+</tr>
+</table>
+
+![3D Waveform](screenshots/3D%20Wave%20Guide.png)
+*3D portfolio waveform — spend envelope across the intent spectrum over simulated time*
+
+---
+
 ## Running It
 
 ### Prerequisites
