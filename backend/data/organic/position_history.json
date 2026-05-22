@@ -1,0 +1,17 @@
+{
+  "domain": "vans.com",
+  "history": [
+    { "month": "2025-05", "visibility_index": 58.2, "avg_position": 15.8, "top10_count": 1640, "top3_count": 480 },
+    { "month": "2025-06", "visibility_index": 55.4, "avg_position": 16.4, "top10_count": 1580, "top3_count": 451 },
+    { "month": "2025-07", "visibility_index": 52.1, "avg_position": 17.1, "top10_count": 1520, "top3_count": 428 },
+    { "month": "2025-08", "visibility_index": 54.0, "avg_position": 16.8, "top10_count": 1560, "top3_count": 440 },
+    { "month": "2025-09", "visibility_index": 57.3, "avg_position": 15.9, "top10_count": 1620, "top3_count": 462 },
+    { "month": "2025-10", "visibility_index": 60.8, "avg_position": 15.2, "top10_count": 1710, "top3_count": 491 },
+    { "month": "2025-11", "visibility_index": 63.4, "avg_position": 14.6, "top10_count": 1820, "top3_count": 518 },
+    { "month": "2025-12", "visibility_index": 67.1, "avg_position": 13.8, "top10_count": 1940, "top3_count": 552 },
+    { "month": "2026-01", "visibility_index": 65.2, "avg_position": 14.1, "top10_count": 1880, "top3_count": 537 },
+    { "month": "2026-02", "visibility_index": 68.9, "avg_position": 13.4, "top10_count": 2020, "top3_count": 574 },
+    { "month": "2026-03", "visibility_index": 71.4, "avg_position": 12.9, "top10_count": 2140, "top3_count": 608 },
+    { "month": "2026-04", "visibility_index": 74.2, "avg_position": 12.1, "top10_count": 2280, "top3_count": 641 }
+  ]
+}

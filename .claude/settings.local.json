@@ -117,7 +117,13 @@
       "WebFetch(domain:wellspentmarket.com)",
       "WebFetch(domain:www.raleys.com)",
       "WebFetch(domain:madeinnewmexico.com)",
-      "WebFetch(domain:zestbillings.com)"
+      "WebFetch(domain:zestbillings.com)",
+      "WebFetch(domain:www.tealhq.com)",
+      "WebFetch(domain:developer.semrush.com)",
+      "WebFetch(domain:www.semrush.com)",
+      "WebFetch(domain:thatmarketingbuddy.com)",
+      "WebFetch(domain:importsem.com)",
+      "WebFetch(domain:docs.datavirtuality.com)"
     ]
   }
 }

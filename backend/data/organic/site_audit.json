@@ -1,0 +1,20 @@
+{
+  "domain": "vans.com",
+  "health_score": 78,
+  "crawled_pages": 14820,
+  "errors": 142,
+  "warnings": 891,
+  "notices": 2340,
+  "top_issues": [
+    { "severity": "error",   "issue": "Broken internal links",        "count": 87,  "slug": "broken-internal-links" },
+    { "severity": "error",   "issue": "4xx pages in sitemap",         "count": 55,  "slug": "4xx-errors" },
+    { "severity": "warning", "issue": "Missing meta descriptions",    "count": 312, "slug": "no-meta" },
+    { "severity": "warning", "issue": "Duplicate title tags",         "count": 201, "slug": "duplicate-titles" },
+    { "severity": "warning", "issue": "Slow page speed (>3s)",        "count": 188, "slug": "slow-html" },
+    { "severity": "warning", "issue": "Images missing alt text",      "count": 640, "slug": "alt-missing" },
+    { "severity": "warning", "issue": "Unminified JS/CSS",            "count": 94,  "slug": "unminified-js-css" },
+    { "severity": "notice",  "issue": "Low internal link count",      "count": 820, "slug": "single-internal-link" },
+    { "severity": "notice",  "issue": "No llms.txt (AI guidance)",    "count": 1,   "slug": "llms-missing" },
+    { "severity": "notice",  "issue": "Missing structured data",      "count": 340, "slug": "invalid-structured-data" }
+  ]
+}

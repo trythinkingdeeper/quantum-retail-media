@@ -130,3 +130,105 @@ export type WsMessage =
   | ({ type: 'cycle_complete' } & CycleSummary)
   | { type: 'error'; message: string }
   | { type: 'reset' }
+
+// ── Organic Search Module ────────────────────────────────────────────────────
+
+export interface OrganicDomainOverview {
+  domain: string
+  authority_score: number
+  organic_traffic: number
+  organic_keywords: number
+  organic_traffic_value: number
+  semrush_rank: number
+  paid_traffic: number
+  backlinks: number
+  referring_domains: number
+  aio_present_count: number
+  aio_owned_count: number
+  fsn_present_count: number
+  fsn_owned_count: number
+  mom_traffic_change: number
+  mom_keyword_change: number
+}
+
+export interface OrganicKeyword {
+  keyword: string
+  position: number
+  prev_position: number
+  position_change: number
+  volume: number
+  cpc: number
+  competition: number
+  url: string
+  traffic_pct: number
+  keyword_difficulty: number
+  intent: 0 | 1 | 2 | 3
+  trends: number[]
+  serp_features: string[]
+  owns_aio: boolean
+  owns_fsn: boolean
+  category: string
+  // Computed by backend
+  ovs: number
+  ai_readiness: number
+  position_strength: number
+  ai_exposure: number
+  wave_position: number
+  wave_width: number
+  wave_amplitude: number
+}
+
+export interface CompetitorEntry {
+  domain: string
+  authority_score: number
+  common_keywords: number
+  unique_to_competitor: number
+  unique_to_vans: number
+  organic_traffic: number
+  organic_keywords: number
+}
+
+export interface KeywordGap {
+  keyword: string
+  vans_position: number
+  converse_position: number
+  newbalance_position: number
+  nike_position: number
+  volume: number
+}
+
+export interface OrganicCompetitors {
+  domain: string
+  competitors: CompetitorEntry[]
+  keyword_gaps: KeywordGap[]
+}
+
+export interface PositionHistoryEntry {
+  month: string
+  visibility_index: number
+  avg_position: number
+  top10_count: number
+  top3_count: number
+}
+
+export interface OrganicHistory {
+  domain: string
+  history: PositionHistoryEntry[]
+}
+
+export interface AuditIssue {
+  severity: 'error' | 'warning' | 'notice'
+  issue: string
+  count: number
+  slug: string
+}
+
+export interface OrganicAudit {
+  domain: string
+  health_score: number
+  crawled_pages: number
+  errors: number
+  warnings: number
+  notices: number
+  top_issues: AuditIssue[]
+}

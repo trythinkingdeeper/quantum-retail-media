@@ -17,6 +17,7 @@ load_dotenv()
 from simulator import WalmartMockSimulator
 from claude_engine import ClaudeEngine, REPORT_MODEL
 from onboarding import run_onboarding_session
+from organic import router as organic_router
 
 
 # ---------------------------------------------------------------------------
@@ -143,6 +144,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.include_router(organic_router)
 
 
 # ---------------------------------------------------------------------------

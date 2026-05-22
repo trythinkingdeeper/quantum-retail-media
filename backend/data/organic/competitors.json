@@ -1,0 +1,44 @@
+{
+  "domain": "vans.com",
+  "competitors": [
+    {
+      "domain": "converse.com",
+      "authority_score": 78,
+      "common_keywords": 18400,
+      "unique_to_competitor": 22100,
+      "unique_to_vans": 19800,
+      "organic_traffic": 6140000,
+      "organic_keywords": 284100
+    },
+    {
+      "domain": "newbalance.com",
+      "authority_score": 74,
+      "common_keywords": 11200,
+      "unique_to_competitor": 38900,
+      "unique_to_vans": 27000,
+      "organic_traffic": 5820000,
+      "organic_keywords": 391400
+    },
+    {
+      "domain": "nike.com",
+      "authority_score": 91,
+      "common_keywords": 31800,
+      "unique_to_competitor": 184200,
+      "unique_to_vans": 14400,
+      "organic_traffic": 28400000,
+      "organic_keywords": 1240000
+    }
+  ],
+  "keyword_gaps": [
+    { "keyword": "skate shoe brands",            "vans_position": 0,  "converse_position": 0,  "newbalance_position": 0,  "nike_position": 12, "volume": 8100  },
+    { "keyword": "best skate shoes 2026",         "vans_position": 31, "converse_position": 8,  "newbalance_position": 0,  "nike_position": 4,  "volume": 27100 },
+    { "keyword": "skateboard shoes under 60",     "vans_position": 0,  "converse_position": 14, "newbalance_position": 0,  "nike_position": 0,  "volume": 14800 },
+    { "keyword": "durable canvas shoes",          "vans_position": 28, "converse_position": 6,  "newbalance_position": 18, "nike_position": 22, "volume": 9900  },
+    { "keyword": "street style shoes men",        "vans_position": 44, "converse_position": 11, "newbalance_position": 7,  "nike_position": 3,  "volume": 18100 },
+    { "keyword": "most comfortable skate shoes",  "vans_position": 12, "converse_position": 5,  "newbalance_position": 0,  "nike_position": 8,  "volume": 22200 },
+    { "keyword": "vulcanized sole sneakers",      "vans_position": 35, "converse_position": 4,  "newbalance_position": 0,  "nike_position": 0,  "volume": 6600  },
+    { "keyword": "what shoes do skaters wear",    "vans_position": 5,  "converse_position": 2,  "newbalance_position": 0,  "nike_position": 9,  "volume": 12100 },
+    { "keyword": "shoes for skating beginners",   "vans_position": 7,  "converse_position": 3,  "newbalance_position": 0,  "nike_position": 0,  "volume": 9900  },
+    { "keyword": "affordable retro sneakers",     "vans_position": 0,  "converse_position": 9,  "newbalance_position": 14, "nike_position": 6,  "volume": 12100 }
+  ]
+}
